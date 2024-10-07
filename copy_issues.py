@@ -5,7 +5,7 @@ import json
 # Configuration
 GITHUB_API_URL = "https://api.github.com"
 SOURCE_REPO = "your_source_repo"  # Format: owner/repo
-TARGET_REPO = "your_owner_repo"  # Format: owner/repo
+TARGET_REPO = "your_target_repo"  # Format: owner/repo
 GITHUB_TOKEN = "your_personal_access_token"  # Personal Access Token
 BATCH_SIZE = 10  # Number of issues to process per batch
 BATCH_DELAY = 120  # Delay (in seconds) between batches to avoid rate limits
