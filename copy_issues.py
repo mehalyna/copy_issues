@@ -4,9 +4,9 @@ import json
 
 # Configuration
 GITHUB_API_URL = "https://api.github.com"
-SOURCE_REPO = "Project-Stage-Academy/UA1244_alpha"  # Format: owner/repo
-TARGET_REPO = "Project-Stage-Academy/UA1244_beta"  # Format: owner/repo
-GITHUB_TOKEN = "Your_Personal_Access_Token"  # Personal Access Token
+SOURCE_REPO = "your_source_repo"  # Format: owner/repo
+TARGET_REPO = "your_owner_repo"  # Format: owner/repo
+GITHUB_TOKEN = "your_personal_access_token"  # Personal Access Token
 BATCH_SIZE = 10  # Number of issues to process per batch
 BATCH_DELAY = 120  # Delay (in seconds) between batches to avoid rate limits
 
