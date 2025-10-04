@@ -10,6 +10,14 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from collections import defaultdict, deque
 
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not available, continue without it
+    pass
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
